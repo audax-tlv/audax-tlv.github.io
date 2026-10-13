@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AUDAX · Barak Avner · AI Content & Advertising</title>
+  <meta name="description" content="AUDAX, Barak Avner. Videos, images and visual worlds for brands, made with an ad agency mindset.">
+  <meta property="og:title" content="AUDAX · AI Content & Advertising">
+  <meta property="og:description" content="Videos, images and visual worlds for brands.">
+  <meta property="og:image" content="../media/posters/sacara-2.webp">
+  <meta name="theme-color" content="#0c0c0b">
+  <link rel="alternate" hreflang="he" href="../">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css?v=24">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top"><img src="../media/logos/audax.png?v=24" alt="AUDAX, back to top" width="720" height="168"></a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#clients">Clients</a>
+        <a href="#spec">Spec ads</a>
+        <a href="#films">Short films</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="lang-link" href="../" lang="he" hreflang="he" aria-label="לאתר בעברית">עב</a>
+        <a class="btn btn-small" data-whatsapp href="#contact">Let's talk</a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  </header>
+
+  <main id="main">
+    <!-- HERO: wall of looping clips -->
+    <section class="hero" aria-label="Intro">
+      <div class="hero-wall" id="heroWall"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-copy wrap">
+        <p class="eyebrow">Barak Avner · AI content & advertising</p>
+        <h1>Idea first.<br>AI second.</h1>
+        <p class="lede">Videos, images and visual worlds for brands, made with an ad agency mindset and care for every frame.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#clients">See the work</a>
+          <a class="btn btn-ghost" data-whatsapp href="#contact">Chat on WhatsApp</a>
+        </div>
+      </div>
+      <button class="hero-pause" id="heroPause" aria-pressed="false">
+        <span class="sr">Pause background videos</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pause" d="M7 5h3v14H7zM14 5h3v14h-3z"/><path class="i-play" d="M8 5l11 7-11 7z"/></svg>
+      </button>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section bg-gray" id="about" aria-labelledby="about-h">
+      <div class="wrap about">
+        <div class="about-photo reveal">
+          <img src="../media/about/barak.webp?v=24" alt="Barak Avner" width="900" height="1200" loading="lazy">
+        </div>
+        <div class="about-text reveal">
+          <p class="eyebrow">01 · About</p>
+          <h2 id="about-h">I'm Barak Avner.</h2>
+          <p>I come from the advertising world and create content with AI. After years of working with brands, both at an ad agency and on the client side, I bring every project a mix of marketing thinking, creativity and attention to detail.</p>
+          <p>I create images, videos and visual worlds for brands, with a focus on a precise look, an engaging story and a real connection to the brand's language.</p>
+          <p class="about-quote">For me, the tools are only part of the process. It all starts with a good idea and a clear sense of what you want to say.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="section bg-black" id="clients" aria-labelledby="clients-h">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">02</p>
+          <h2 id="clients-h">Client work</h2>
+          <p class="section-sub">Each client and the videos I produced for them.</p>
+        </header>
+        <div class="client-grid" id="clientGrid"></div>
+        <div class="client-grid client-grid--small" id="clientGridSmall"></div>
+      </div>
+    </section>
+
+    <!-- SPEC -->
+    <section class="section bg-gray" id="spec" aria-labelledby="spec-h">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">03</p>
+          <h2 id="spec-h">Spec ads</h2>
+          <p class="section-sub">Ads I created on my own initiative to explore styles and products. They were not commissioned by the brands.</p>
+        </header>
+        <div class="spec-feature" id="specFeature"></div>
+        <div class="carousel-nav" data-carousel="specGrid">
+          <button class="carousel-btn" data-dir="prev" aria-label="Previous videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button class="carousel-btn" data-dir="next" aria-label="Next videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+        <div class="spec-grid carousel" id="specGrid" tabindex="0" aria-label="Spec ads, scroll sideways"></div>
+      </div>
+    </section>
+
+    <!-- FILMS -->
+    <section class="section bg-black" id="films" aria-labelledby="films-h">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">04</p>
+          <h2 id="films-h">Short films</h2>
+          <p class="section-sub">Stories and personal work.</p>
+        </header>
+        <div class="carousel-nav" data-carousel="filmGrid">
+          <button class="carousel-btn" data-dir="prev" aria-label="Previous videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <button class="carousel-btn" data-dir="next" aria-label="Next videos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+        <div class="film-grid carousel" id="filmGrid" tabindex="0" aria-label="Short films, scroll sideways"></div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section bg-gray" id="process" aria-labelledby="process-h">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">05</p>
+          <h2 id="process-h">How it works</h2>
+        </header>
+        <ol class="process" id="processList"></ol>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <section class="logos bg-black" aria-label="Brands I've worked with">
+      <div class="wrap logos-head">
+        <p class="eyebrow">Brands I've worked with</p>
+        <button class="mini-toggle" id="marqueeToggle" aria-pressed="false">Pause</button>
+      </div>
+      <div class="marquee">
+        <ul class="marquee-track" id="logos"></ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section bg-gray contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <h2 id="contact-h" class="reveal">Got a product?<br>Let's find its story.</h2>
+        <div class="contact-links reveal">
+          <a class="btn" data-whatsapp href="#contact">WhatsApp</a>
+          <a class="btn btn-ghost" data-email href="#contact">Email</a>
+          <a class="btn btn-ghost" data-instagram href="#contact">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© 2026 AUDAX · Barak Avner</span>
+      <a href="accessibility.html">Accessibility statement</a>
+    </div>
+  </footer>
+
+  <!-- Project view (client / spec collection) -->
+  <div class="project" id="project" role="dialog" aria-modal="true" aria-labelledby="projectTitle" hidden>
+    <div class="project-inner wrap">
+      <button class="close" data-close-project aria-label="Back to the main page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <header class="project-head">
+        <div class="project-logo" id="projectLogo"></div>
+        <p class="eyebrow" id="projectTag"></p>
+        <h2 id="projectTitle"></h2>
+        <p class="project-about" id="projectAbout"></p>
+      </header>
+      <div id="projectGroups"></div>
+    </div>
+  </div>
+
+  <!-- Video player -->
+  <div class="player" id="player" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+    <button class="close" data-close-player aria-label="Close player">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <figure class="player-frame">
+      <video id="playerVideo" controls playsinline preload="metadata"></video>
+      <figcaption id="playerCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="../assets/js/data.js?v=24"></script>
+  <script src="../assets/js/data.en.js?v=24"></script>
+  <script src="../assets/js/main.js?v=24"></script>
+  <script src="../assets/js/a11y.js?v=24"></script>
+</body>
+</html>

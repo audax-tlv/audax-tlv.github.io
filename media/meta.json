@@ -1,0 +1,192 @@
+﻿[
+    {
+        "id":  "snips-1",
+        "duration":  36.6,
+        "landscape":  false
+    },
+    {
+        "id":  "snips-2",
+        "duration":  54.9,
+        "landscape":  false
+    },
+    {
+        "id":  "snips-3",
+        "duration":  55.3,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-gravite",
+        "duration":  43,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-scent",
+        "duration":  19,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-iefc",
+        "duration":  35.1,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-barber",
+        "duration":  58.4,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-podcast",
+        "duration":  56,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-facecream",
+        "duration":  40.5,
+        "landscape":  false
+    },
+    {
+        "id":  "particle-shampoo",
+        "duration":  50.8,
+        "landscape":  false
+    },
+    {
+        "id":  "maison-murphy",
+        "duration":  55,
+        "landscape":  false
+    },
+    {
+        "id":  "sacara-1",
+        "duration":  22,
+        "landscape":  false
+    },
+    {
+        "id":  "sacara-2",
+        "duration":  15.4,
+        "landscape":  false
+    },
+    {
+        "id":  "sacara-3",
+        "duration":  17,
+        "landscape":  false
+    },
+    {
+        "id":  "deel-1",
+        "duration":  25.2,
+        "landscape":  false
+    },
+    {
+        "id":  "legeneral-1",
+        "duration":  47,
+        "landscape":  false
+    },
+    {
+        "id":  "legeneral-2",
+        "duration":  40.8,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-bali",
+        "duration":  34.2,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-go",
+        "duration":  16.2,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-knife",
+        "duration":  18.9,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-rubybay",
+        "duration":  25.9,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-1",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-2",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-3",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-4",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-5",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-6",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-swim-7",
+        "duration":  8.1,
+        "landscape":  false
+    },
+    {
+        "id":  "film-statues",
+        "duration":  32.2,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-loreal",
+        "duration":  63.5,
+        "landscape":  false
+    },
+    {
+        "id":  "film-firstday",
+        "duration":  40.2,
+        "landscape":  false
+    },
+    {
+        "id":  "film-garden",
+        "duration":  28.2,
+        "landscape":  false
+    },
+    {
+        "id":  "film-studio",
+        "duration":  31.9,
+        "landscape":  true
+    },
+    {
+        "id":  "film-football",
+        "duration":  27.3,
+        "landscape":  true
+    },
+    {
+        "id":  "spec-halloween",
+        "duration":  28.1,
+        "landscape":  false
+    },
+    {
+        "id":  "spec-audi-adidas",
+        "duration":  64.3,
+        "landscape":  true
+    },
+    {
+        "id":  "film-kitchen",
+        "duration":  52.2,
+        "landscape":  true
+    },
+    {
+        "id":  "film-football",
+        "duration":  27.3,
+        "landscape":  true
+    }
+]
