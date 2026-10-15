@@ -1,7 +1,7 @@
 /* All site content lives here. Edit texts, order and videos in this file only. */
 window.SITE = {
   /* Bump after replacing images so browsers fetch the new files instead of cached ones */
-  version: 24,
+  version: 26,
 
   contact: {
     whatsapp: '972546984986',   // international format: no +, no leading 0, no dashes
@@ -10,7 +10,7 @@ window.SITE = {
   },
 
   /* Clips that play in the hero wall. Each opens its full video on click. */
-  hero: ['sacara-2', 'snips-1', 'maison-murphy', 'particle-gravite', 'legeneral-1', 'spec-knife',
+  hero: ['sacara-2', 'snips-1', 'nooshka-1', 'particle-gravite', 'legeneral-1', 'spec-knife',
          'snips-3', 'particle-scent', 'sacara-3', 'spec-bali', 'film-garden', 'spec-go'],
 
   /* Client projects, in display order. featured: true = big card. */
@@ -44,6 +44,7 @@ window.SITE = {
         ]}
       ]
     },
+    /* Maison du Miel is hidden until the client publishes the film (restore this block then):
     {
       id: 'maison', name: 'Maison du Miel', logo: 'maison', featured: true,
       coverImage: 'maison-murphy-wide',
@@ -51,6 +52,15 @@ window.SITE = {
       about: 'סרט מותג לבית הבשמים Maison du Miel.',
       groups: [{ videos: [
         { id: 'maison-murphy', title: 'Loi de Murphy' }
+      ]}]
+    }, */
+    {
+      id: 'nooshka', name: 'Studio Nooshka', logo: 'nooshka', featured: true,
+      coverImage: 'nooshka-wide',
+      tag: 'סטודיו לרהיטי בוטיק',
+      about: 'סרט השקה לקולקציית Dual של Studio Nooshka: מהעץ הגולמי בנגרייה ועד הרהיט בבית.',
+      groups: [{ videos: [
+        { id: 'nooshka-1', title: 'Dual Collection' }
       ]}]
     },
     {
