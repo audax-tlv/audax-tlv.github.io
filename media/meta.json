@@ -193,5 +193,15 @@
         "id":  "nooshka-1",
         "duration":  35.0,
         "landscape":  false
+    },
+    {
+        "id":  "maison-marie",
+        "duration":  57.8,
+        "landscape":  false
+    },
+    {
+        "id":  "shani-1",
+        "duration":  29.4,
+        "landscape":  false
     }
 ]

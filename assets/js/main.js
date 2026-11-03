@@ -39,7 +39,7 @@
   /* Client logos: white on transparent, all on the same 1772x424 canvas */
   var LOGOS = {
     snips: 'Snips', particle: 'Particle', maison: 'Maison du Miel', sacara: 'SACARA',
-    nooshka: 'Studio Nooshka', deel: 'Deel', legeneral: 'Le Général'
+    nooshka: 'Studio Nooshka', deel: 'Deel', legeneral: 'Le Général', shani: 'Shani Skin Care'
   };
 
   function el(tag, attrs, children) {
@@ -137,7 +137,7 @@
      copies after the first are hidden from screen readers. */
   function buildLogos() {
     var track = $('#logos');
-    var keys = ['snips', 'particle', 'maison', 'sacara', 'nooshka', 'deel', 'legeneral'];
+    var keys = ['snips', 'particle', 'maison', 'sacara', 'nooshka', 'shani', 'deel', 'legeneral'];
     for (var copy = 0; copy < 4; copy++) {
       keys.forEach(function (k) {
         var img = logoImg(k);
@@ -172,7 +172,7 @@
     }
     var name = p.logo ? logoImg(p.logo) : el('span', { class: 'card-name', text: p.name });
     return el('button', {
-      class: 'card reveal', 'aria-label': p.name + ', ' + plural(vids.length),
+      class: 'card reveal' + (p.span ? ' card--span' : ''), 'aria-label': p.name + ', ' + plural(vids.length),
       onclick: function () { go('c', p.id); }
     }, [
       media,

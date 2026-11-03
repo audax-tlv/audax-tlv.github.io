@@ -1,7 +1,7 @@
 /* All site content lives here. Edit texts, order and videos in this file only. */
 window.SITE = {
   /* Bump after replacing images so browsers fetch the new files instead of cached ones */
-  version: 26,
+  version: 27,
 
   contact: {
     whatsapp: '972546984986',   // international format: no +, no leading 0, no dashes
@@ -44,16 +44,6 @@ window.SITE = {
         ]}
       ]
     },
-    /* Maison du Miel is hidden until the client publishes the film (restore this block then):
-    {
-      id: 'maison', name: 'Maison du Miel', logo: 'maison', featured: true,
-      coverImage: 'maison-murphy-wide',
-      tag: 'בשמים',
-      about: 'סרט מותג לבית הבשמים Maison du Miel.',
-      groups: [{ videos: [
-        { id: 'maison-murphy', title: 'Loi de Murphy' }
-      ]}]
-    }, */
     {
       id: 'nooshka', name: 'Studio Nooshka', logo: 'nooshka', featured: true,
       coverImage: 'nooshka-wide',
@@ -71,6 +61,26 @@ window.SITE = {
         { id: 'sacara-1', title: 'SACARA 01' },
         { id: 'sacara-2', title: 'SACARA 02' },
         { id: 'sacara-3', title: 'SACARA 03' }
+      ]}]
+    },
+    {
+      /* span: true = full-width card (5 big cards don't pair up).
+         Loi de Murphy is hidden until the client publishes it: add back
+         { id: 'maison-murphy', title: 'Loi de Murphy' } (re-encode the newer, better file first). */
+      id: 'maison', name: 'Maison du Miel', logo: 'maison', featured: true, span: true,
+      cover: ['maison-marie-b', 'maison-marie', 'maison-marie-c'],
+      tag: 'בשמים',
+      about: 'סרט מותג לבית הבשמים Maison du Miel.',
+      groups: [{ videos: [
+        { id: 'maison-marie', title: 'Marie Poudrée' }
+      ]}]
+    },
+    {
+      id: 'shani', name: 'Shani Skin Care',
+      tag: 'קוסמטיקה וטיפוח העור',
+      about: 'סרטון תדמית ל-Shani Skin Care, קליניקה לטיפולי פנים וטיפוח העור.',
+      groups: [{ videos: [
+        { id: 'shani-1', title: 'Shani Skin Care' }
       ]}]
     },
     {

@@ -6,6 +6,7 @@ window.SITE_EN = {
     particle: { tag: "Men's grooming", about: 'Product ads, a fragrance campaign and UGC videos for the American grooming brand Particle.' },
     maison: { tag: 'Fragrance', about: 'A brand film for the perfume house Maison du Miel.' },
     nooshka: { tag: 'Boutique furniture studio', about: 'A launch film for the Dual collection by Studio Nooshka: from raw timber in the workshop to the finished piece at home.' },
+    shani: { tag: 'Cosmetics & skin care', about: 'A brand video for Shani Skin Care, a facial treatment and skin care clinic.' },
     sacara: { tag: 'Fragrance', about: 'A series of product videos for SACARA fragrances.' },
     deel: { tag: 'Global HR & hiring', about: 'An ad for the global HR platform Deel.' },
     legeneral: { tag: 'Luxury real estate', about: 'Brand films for the Le Général residential project.' },
