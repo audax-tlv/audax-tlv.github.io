@@ -4,7 +4,7 @@ window.SITE_EN = {
   projects: {
     snips: { tag: 'Short-series streaming app', about: 'A series of ads for the Snips streaming app: complete stories in under a minute, just like the product.' },
     particle: { tag: "Men's grooming", about: 'Product ads, a fragrance campaign and UGC videos for the American grooming brand Particle.' },
-    maison: { tag: 'Fragrance', about: 'A brand film for the perfume house Maison du Miel.' },
+    maison: { tag: 'Fragrance', about: 'Brand films for the perfume house Maison du Miel.' },
     nooshka: { tag: 'Boutique furniture studio', about: 'A launch film for the Dual collection by Studio Nooshka: from raw timber in the workshop to the finished piece at home.' },
     shani: { tag: 'Cosmetics & skin care', about: 'A brand video for Shani Skin Care, a facial treatment and skin care clinic.' },
     sacara: { tag: 'Fragrance', about: 'A series of product videos for SACARA fragrances.' },

@@ -1,7 +1,7 @@
 /* All site content lives here. Edit texts, order and videos in this file only. */
 window.SITE = {
   /* Bump after replacing images so browsers fetch the new files instead of cached ones */
-  version: 27,
+  version: 28,
 
   contact: {
     whatsapp: '972546984986',   // international format: no +, no leading 0, no dashes
@@ -16,7 +16,7 @@ window.SITE = {
   /* Client projects, in display order. featured: true = big card. */
   clients: [
     {
-      id: 'snips', name: 'Snips', logo: 'snips', featured: true,
+      id: 'snips', name: 'Snips', logo: 'snips',
       tag: 'אפליקציית סדרות קצרות',
       about: 'סדרת פרסומות לאפליקציית הסטרימינג Snips: סיפורים שלמים בתוך דקה, בדיוק כמו המוצר.',
       groups: [{ videos: [
@@ -26,7 +26,7 @@ window.SITE = {
       ]}]
     },
     {
-      id: 'particle', name: 'Particle', logo: 'particle', featured: true,
+      id: 'particle', name: 'Particle', logo: 'particle',
       tag: 'טיפוח לגברים',
       cover: ['particle-gravite', 'particle-scent', 'particle-barber'],
       about: 'פרסומות מוצר, קמפיין בושם וסרטוני UGC למותג הטיפוח האמריקאי Particle.',
@@ -45,7 +45,7 @@ window.SITE = {
       ]
     },
     {
-      id: 'nooshka', name: 'Studio Nooshka', logo: 'nooshka', featured: true,
+      id: 'nooshka', name: 'Studio Nooshka', logo: 'nooshka',
       coverImage: 'nooshka-wide',
       tag: 'סטודיו לרהיטי בוטיק',
       about: 'סרט השקה לקולקציית Dual של Studio Nooshka: מהעץ הגולמי בנגרייה ועד הרהיט בבית.',
@@ -54,25 +54,26 @@ window.SITE = {
       ]}]
     },
     {
-      id: 'sacara', name: 'SACARA', logo: 'sacara', featured: true,
+      /* Loi de Murphy is hidden until the client publishes it: add back
+         { id: 'maison-murphy', title: 'Loi de Murphy' } (re-encode the newer, better file first).
+         span: true would make this a full-width card (Barak preferred the regular size). */
+      id: 'maison', name: 'Maison du Miel', logo: 'maison',
+      cover: ['maison-marie-b', 'maison-marie', 'maison-marie-c'],
+      tag: 'בשמים',
+      about: 'סרטי מותג לבית הבשמים Maison du Miel.',
+      groups: [{ videos: [
+        { id: 'maison-marie', title: 'Marie Poudrée' },
+        { id: 'maison-newton', title: 'Loi de Newton' }
+      ]}]
+    },
+    {
+      id: 'sacara', name: 'SACARA', logo: 'sacara',
       tag: 'בשמים',
       about: 'סדרת סרטוני מוצר לבשמים של SACARA.',
       groups: [{ videos: [
         { id: 'sacara-1', title: 'SACARA 01' },
         { id: 'sacara-2', title: 'SACARA 02' },
         { id: 'sacara-3', title: 'SACARA 03' }
-      ]}]
-    },
-    {
-      /* span: true = full-width card (5 big cards don't pair up).
-         Loi de Murphy is hidden until the client publishes it: add back
-         { id: 'maison-murphy', title: 'Loi de Murphy' } (re-encode the newer, better file first). */
-      id: 'maison', name: 'Maison du Miel', logo: 'maison', featured: true, span: true,
-      cover: ['maison-marie-b', 'maison-marie', 'maison-marie-c'],
-      tag: 'בשמים',
-      about: 'סרט מותג לבית הבשמים Maison du Miel.',
-      groups: [{ videos: [
-        { id: 'maison-marie', title: 'Marie Poudrée' }
       ]}]
     },
     {
