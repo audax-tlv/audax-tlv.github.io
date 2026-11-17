@@ -1,7 +1,7 @@
 /* All site content lives here. Edit texts, order and videos in this file only. */
 window.SITE = {
   /* Bump after replacing images so browsers fetch the new files instead of cached ones */
-  version: 29,
+  version: 30,
 
   contact: {
     whatsapp: '972546984986',   // international format: no +, no leading 0, no dashes
