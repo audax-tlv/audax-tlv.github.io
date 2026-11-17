@@ -1,7 +1,7 @@
 /* All site content lives here. Edit texts, order and videos in this file only. */
 window.SITE = {
   /* Bump after replacing images so browsers fetch the new files instead of cached ones */
-  version: 28,
+  version: 29,
 
   contact: {
     whatsapp: '972546984986',   // international format: no +, no leading 0, no dashes
@@ -48,9 +48,10 @@ window.SITE = {
       id: 'nooshka', name: 'Studio Nooshka', logo: 'nooshka',
       coverImage: 'nooshka-wide',
       tag: 'סטודיו לרהיטי בוטיק',
-      about: 'סרט השקה לקולקציית Dual של Studio Nooshka: מהעץ הגולמי בנגרייה ועד הרהיט בבית.',
+      about: 'סרטים ל-Studio Nooshka, סטודיו לרהיטי בוטיק: השקת קולקציית Dual, מהעץ הגולמי בנגרייה ועד הרהיט בבית, וסרט תדמית לסטודיו.',
       groups: [{ videos: [
-        { id: 'nooshka-1', title: 'Dual Collection' }
+        { id: 'nooshka-1', title: 'Dual Collection' },
+        { id: 'nooshka-2', title: 'Studio Nooshka' }
       ]}]
     },
     {
@@ -79,9 +80,10 @@ window.SITE = {
     {
       id: 'shani', name: 'Shani Skin Care',
       tag: 'קוסמטיקה וטיפוח העור',
-      about: 'סרטון תדמית ל-Shani Skin Care, קליניקה לטיפולי פנים וטיפוח העור.',
+      about: 'סרטונים ל-Shani Skin Care, קליניקה לטיפולי פנים וטיפוח העור.',
       groups: [{ videos: [
-        { id: 'shani-1', title: 'Shani Skin Care' }
+        { id: 'shani-1', title: 'Shani Skin Care' },
+        { id: 'shani-2', title: 'Skin Makeover Game' }
       ]}]
     },
     {
